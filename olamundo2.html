@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá Mundo</title>
+</head>
+<style>
+    body {
+        background: linear-gradient(to right, #000080, #3700ff, rgba(220, 8, 248, 0) );
+        color: whitesmoke;
+        font: normal 14pt Arial;
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>Olá Mundo em Javascript</h1>
+    <p id="olamundo"> Esse texto será modificado com um clique no botão abaixo.</p>
+    <p id="olamundo2"> Esse texto será modificado com um clique no botão abaixo.</p>
+
+    <button type="button" onclick="document.getElementById('olamundo').innerHTML='Você fez o curso?'"> Clique aqui</button>
+    <button type="button" onclick="document.getElementById('olamundo2').innerHTML='É isso que dá não fazer o curso'"> Clique aqui</button>
+
+</body>
+</html>
