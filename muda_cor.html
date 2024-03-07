@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo getElementById</title>
+</head>
+<body>
+    <p id="para1"> Pokémon é um ótimo anime, mas tem péssimos jogos. </p>
+    <button onclick="mudaCor('blue');"> Azul </button>
+    <button onclick="mudaCor('red');"> Vermelho </button>
+    <button onclick="mudaCor('black');"> Preto </button>
+
+    <script>
+        function mudaCor(novaCor) {
+            var elemento = document.getElementById("para1");
+            elemento.style.color = novaCor;
+        }
+    </script>
+</body>
+</html>
