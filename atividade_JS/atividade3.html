@@ -1,0 +1,17 @@
+<script>
+    let nome = window.prompt("Digite o seu nome.");
+    let idade = parseInt(window.prompt("Digite a sua idade."));
+    
+
+    if (idade >= 18 && idade <=70) {
+        window.alert(`${nome}, o seu voto é obrigatório.`)
+    } else  {
+        if (idade >= 16 && idade <= 17 || idade > 70) {
+            window.alert(`${nome}, o seu voto é facultativo`)
+        }
+            else {
+                window.alert(`${nome}, você não pode votar`)
+            }
+    }
+    
+</script>

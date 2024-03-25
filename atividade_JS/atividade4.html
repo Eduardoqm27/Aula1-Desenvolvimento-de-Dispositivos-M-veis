@@ -1,0 +1,20 @@
+<script>
+    let nome = window.prompt("Digite o seu nome.");
+    let peso = parseInt(window.prompt("Digite o peso."));
+    let altura = parseInt(window.prompt("Digite a sua altura."));
+
+    let imc = peso / (altura * altura)
+    
+
+    if (imc <18.5) {
+        window.alert(`${nome}, o seu IMC é ${imc} e você está ABAIXO do peso.`)
+    } else  {
+        if (imc >= 18.5 && imc <=24.9) {
+            window.alert(`${nome}, o seu IMC é ${imc} e voce está com peso NORMAL.`)
+        }
+            else {
+                window.alert(`${nome}, o seu IMC está ACIMA do peso.`)
+            }
+    }
+    
+</script>
